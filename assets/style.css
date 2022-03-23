@@ -1,12 +1,36 @@
+* {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h1 {
     color:pink;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:larger;
+    font-size:largest;
     text-align: center;
-}
+    background-color: lightgoldenrodyellow;
+    padding:10px;
+    position:fixed;
+    top:0;
+    width:100%;
+}s
 
 h3 {
     color:blueviolet;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size:smaller;
+    background-color: lightpink;
+}
+
+#photos {
+    text-align: center;
+    width: 100px;
+    margin-top:50px;
+}
+
+.caption {
+    color:greenyellow;
+    font-size:x-small;
+    font-style: italic;
+    background-color: black;
+    display: inline;
 }
